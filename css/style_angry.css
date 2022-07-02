@@ -1,0 +1,313 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.navi_bottom {
+  background-color: #3e3e3e;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  /* border: 1px solid red; */
+  padding: 5px;
+}
+
+.navi_bottom li {
+  /* border: 2px solid #E36161; */
+
+  /* padding: 5px; */
+  margin: 6px;
+}
+
+.navi_bottom li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 36px;
+  padding: 8px;
+  color: white;
+}
+
+.navi_bottom li a:hover {
+  color: #e46262;
+}
+
+.header_start {
+  min-height: 100vh;
+  background-image: url("../pictures/images4_alphacoders_doom_eternal1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header_text {
+  height: 40vh;
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_container {
+  height: 60vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 100px;
+}
+
+.category_plate {
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  border: 8px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_container div:hover {
+  background-color:  #3e3e3e;
+
+  border: 8px solid #3e3e3e ;
+}
+
+.header_container a {
+  text-decoration: none;
+
+  border-radius: 50%;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  padding: 70px 40px;
+}
+
+.header_container a:hover {
+  color: #fbca47;
+}
+
+.main_container {
+  min-height: 200vh;
+  background-color: #3e3e3e;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.main_text {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.overview_container {
+  min-height: 100vh;
+  background-color: #3e3e3e;
+  /* border: 2px solid red; */
+  /* margin-top: 90px; */
+  padding: 8px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ov_content_general {
+  margin: 8px;
+  /* border: 1px solid #f8d95b; */
+  background-color: black;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 700px;
+}
+
+.ov_content_top,
+.ov_content_bottom {
+  margin: 15px;
+}
+
+.ov_content_top {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* height: 66%; */
+}
+
+.ov_content_bottom {
+  /* border: 2px solid blue; */
+  height: 30%;
+  /* width: 90%; */
+  /* border: 1px solid white; */
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.ov_content_bottom h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.ov_content_bottom p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* .heading_ov_content {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 2px;
+  text-align: center;
+} */
+
+.review_container {
+  height: 90vh;
+  background-color: #e36161;
+}
+
+.review_container_text {
+  height: 15vh;
+  font-size: 80px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.review_plate_area {
+  height: 60vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.review_plate {
+  height: 500px;
+  width: 500px;
+  background-color: #3e3e3e;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.review_img1 {
+  height: 100%;
+  background-image: url("../pictures/Bill-Gates-zimbio-copy.jpg");
+  border-radius: 50%;
+  border: 6px solid #3e3e3e;
+}
+
+.review_img2 {
+  height: 100%;
+  background-image: url("../pictures/jeff-bezos-unilad.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 6px solid #3e3e3e;
+  border-radius: 50%;
+}
+
+.review_img3 {
+  height: 100%;
+  background-image: url("../pictures/Einstein-sternwarte-neumarkt.jpg");
+  border: 6px solid #3e3e3e;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.review_text {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 20px 0;
+}
+
+.review_text h3 {
+  font-size: 40px;
+  padding: 20px 0;
+  font-weight: bold;
+}
+
+.review_text p {
+  font-size: 22px;
+  padding: 15px 0;
+}
+
+.footer_container {
+  background-color: #3e3e3e;
+}
+.social_links {
+  height: 30vh;
+}
+
+.social_links ul {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.social_links ul li {
+  padding: 0 20px;
+}
+
+.social_links a {
+  color: white;
+  font-size: 80px;
+}
+
+.social_links a:hover {
+  color: #e36161;
+}
+/* .selection_container {
+  border: 2px solid green;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selection_area {
+  border: 1px solid red;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  display: flex; */
+/* justify-content: space-around; */
+/* flex-wrap: wrap;
+} */
+
+/* .selection_container a {
+  text-decoration: none;
+}
+
+.answer_area {
+  border: 1px dashed grey;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+} */
+
+/* .good {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+.bad {
+  border-top-right-radius: 50%;
+} */
